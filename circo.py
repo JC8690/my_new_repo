@@ -24,7 +24,7 @@ hist_button = st.button('Construir dispercion chart') # crear un botón
 if hist_button:  # al hacer clic en el botón
         # escribir un mensaje
         st.write('Creación de un gráfico dispercion para el conjunto de datos de anuncios de venta de coches')
-            
+        
         # crear un gráfico interactivo
         fig = px.scatter(car_data, x="price", y="odometer", color="condition")
         st.plotly_chart(fig, use_container_width=True)
