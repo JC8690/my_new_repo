@@ -19,11 +19,11 @@ if hist_button: # al hacer clic en el botón
 
 
 
-hist_button = st.button('Construir ploty chart') # crear un botón    
+hist_button = st.button('Construir dispercion chart') # crear un botón    
 
 if hist_button:  # al hacer clic en el botón
         # escribir un mensaje
-        st.write('Creación de un gráfico interactivo para el conjunto de datos de anuncios de venta de coches')
+        st.write('Creación de un gráfico dispercion para el conjunto de datos de anuncios de venta de coches')
             
         # crear un gráfico interactivo
         fig = px.scatter(car_data, x="price", y="odometer", color="condition")
