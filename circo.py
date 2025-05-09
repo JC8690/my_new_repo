@@ -19,7 +19,7 @@ if hist_button: # al hacer clic en el botón
 
 
 
-hist_button = st.button('Construir dispercion chart') # crear un botón    
+hist_button = st.button('Construir grafica de dispercion') # crear un botón    
 
 if hist_button:  # al hacer clic en el botón
         # escribir un mensaje
